@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Compound Learning Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://jsme-editor.googlecode.com/svn/trunk/jsme/jsme.nocache.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Chemical Compound Learning Tool</h1>
+    </header>
+    <main>
+        <section>
+            <label for="compound-select">Select a Compound:</label>
+            <select id="compound-select">
+                <option value="H2O">Water (H2O)</option>
+                <option value="CO2">Carbon Dioxide (CO2)</option>
+                <option value="CH4">Methane (CH4)</option>
+                <!-- More compounds can be added here -->
+            </select>
+            <div id="jsme_container"></div>
+            <button id="submit-btn">Check Structure</button>
+            <div id="feedback"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
